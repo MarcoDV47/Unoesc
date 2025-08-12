@@ -1,0 +1,98 @@
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\appsettings.Development.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\appsettings.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.staticwebassets.runtime.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.staticwebassets.endpoints.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.exe
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.deps.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.runtimeconfig.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.dll
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\bin\Debug\net9.0\Dia da Semana.pdb
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.GeneratedMSBuildEditorConfig.editorconfig
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.AssemblyInfoInputs.cache
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.AssemblyInfo.cs
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.csproj.CoreCompileInputs.cache
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.MvcApplicationPartsAssemblyInfo.cache
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.RazorAssemblyInfo.cache
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.RazorAssemblyInfo.cs
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\scopedcss\bundle\Dia da Semana.styles.css
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\scopedcss\projectbundle\Dia da Semana.bundle.scp.css
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\304fc0podp-b9sayid5wm.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\76foiht6j6-61n19gt1b8.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\qtc816a109-xtxxf3hu2r.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\8mvd2trdst-bqjiyaj88i.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\sfkobbzoic-c2jlpeoesf.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\kbiw24xalv-erw9l3u2r3.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\rzynb6ut1b-aexeepp0ev.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\87v78ou3ul-d7shbmvgxk.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\nhu6nbv9et-ausgxo2sd3.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\bgvupbz4vp-k8d9w2qqmf.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\0afz6xiqys-cosvhxvwiu.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\pq1zqjd0xm-ub07r2b239.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\4m9cb0s58k-fvhpjtyr6v.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\5qxq91fwz9-b7pk76d08c.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\kbbgrlypgz-fsbi9cje9m.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\m4qprxij3d-rzd6atqjts.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\uj8o1b0k4z-ee0r1s7dh0.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\vo3nrjd5r2-dxx9fxp4il.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\vjh2gkb9t9-jd9uben2k1.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\24mf2cuhpj-khv3u5hwcm.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\8n7ott0s1a-r4e9w2rdcm.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\9wsc6x6jsc-lcd1t2u6c8.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\0vuy1kkexq-c2oey78nd0.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\a48b9rthuv-tdbxkamptv.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\6yf2m121oz-j5mq2jizvt.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\afznb08net-06098lyss8.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\y38ov1m2wi-nvvlpmu67g.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\l4eo0pd4s1-s35ty4nyc5.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\1prrzqh8km-pj5nd1wqec.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\juxu8fvcs3-46ein0sx1k.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\318mskgia4-v0zj4ognzu.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\57fn73108k-37tfw0ft22.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\1no9c12pfi-hrwsygsryq.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\nu35ykju9g-pk9g2wxc8p.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\7rz6ouk92k-ft3s53vfgj.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\wjmrcq3igp-6cfz1n2cew.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\1iyyatuxpc-6pdc2jztkx.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\0foquv3h8w-493y06b0oq.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\3xhs1hvcud-iovd86k7lj.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\tpshgcpqh7-vr1egmr9el.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\mf3isxy4y5-kbrnm935zg.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\q1s02nfx5e-jj8uyg4cgr.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\v8l76jun4k-y7v9cxd14o.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\eqeolgnf9o-notf2xhcfb.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\dwd1rya6e5-h1s4sie4z3.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\9dxyx0clqy-63fj8s7r0e.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\mwqjj421v2-0j3bgjxly4.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\fltmecotw1-47otxtyo56.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\64xc01k9rf-4v8eqarkd7.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\yswtkrsof4-356vix0kms.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\tazvojn02a-83jwlth58m.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\xt5n2r74i5-mrlpezrjn3.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\a03dymahok-lzl9nlhx6b.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\c66d8hbhvb-ag7o75518u.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\z8g2c1p68f-x0q3zqp4vz.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\k2pyudxu20-0i3buxo5is.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\j1g6m6jz8t-o1o13a6vjx.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\cykaz82s7a-ttgo8qnofa.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\vq2mmyx8qn-2z0ns9nrw6.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\sjlasqbxhi-muycvpuwrr.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\embxi33q8e-87fc7y1x7t.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\byfcmbqifh-mlv21k5csn.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\15l03bdhbl-lovssst08s.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\compressed\tf7kcziz7g-lovssst08s.gz
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets.build.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets.development.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets\msbuild.Dia da Semana.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets\msbuild.Dia da Semana.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets\msbuild.build.Dia da Semana.props
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Dia da Semana.props
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Dia da Semana.props
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.dll
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\refint\Dia da Semana.dll
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.pdb
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\Dia da Semana.genruntimeconfig.cache
+D:\Unoesc\Programação I\Exercícios\Dia da Semana\Dia da Semana\obj\Debug\net9.0\ref\Dia da Semana.dll

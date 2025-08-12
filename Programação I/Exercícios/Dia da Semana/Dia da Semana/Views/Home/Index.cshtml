@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="get" asp-action="GetWeekDayIf">
+    <label for="day">Insira o número do dia da semana:</label>
+    <input type="number" min="1" max="7" name="day" id="day"/>
+    <button type="submit">Enviar</button>
+</form>
+
+<form method="get" asp-action="GetWeekDaySwitch">
+    <label for="day">Insira o número do dia da semana:</label>
+    <input type="number" min="1" max="7" name="day" id="day" />
+    <button type="submit">Enviar</button>
+</form>
+
+<form method="get" asp-action="GetWeekDaySimple">
+    <label for="day">Insira o número do dia da semana:</label>
+    <input type="number" min="1" max="7" name="day" id="day" />
+    <button type="submit">Enviar</button>
+</form>

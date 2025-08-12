@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dia da Semana.props" />
+</Project>
