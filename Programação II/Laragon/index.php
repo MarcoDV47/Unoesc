@@ -1,5 +1,7 @@
-<?php
+﻿<?php
+	// 8
 	require_once './side/produto.php';
+
 	require_once './side/carro.php';
 	require_once './side/aluno.php';
 	require_once './side/contaBancaria.php';
@@ -33,7 +35,7 @@
 		}
 
 		function apresentar(){
-			echo "Meu nome e $this->nome";
+			echo "Meu nome e $this->nome.";
 		}
 
 		function getNome(){
@@ -50,6 +52,27 @@
 	}
 
 	// 7 
+
+	$produto1 = new Produto("Revolver", 300, 1);
+	$produto1->valorTotal();
+	echo "<br>";
+	$produto1->exibirDetalhes();
+	echo "<br>";
+
+	// 10
+
+	$pessoas = [
+		new Pessoa("Joao", 20),
+		new Pessoa("Claudio", 40),
+		new Pessoa("Antedeguemon", 60)
+	];
+
+	for ($i = 0; $i < count($pessoas); $i++){
+		$pessoas[$i]->apresentar();
+		echo "<br>";
+	}
+
+	// Segunda folha de atividades
 
 	// 1
 	echo "<br><br> <strong>Exercicio 1:</strong> <br><br>";
@@ -143,7 +166,7 @@
 	echo "<br><br><br> <strong>Exercicio 9:</strong> <br><br>";
 
 	$livros = array(
-		new Livro("Crime e Castigo", "Dostoi�vski", 1800),
+		new Livro("Crime e Castigo", "Dostoiévski", 1800),
 		new Livro("Dom Quixote", "Manuel Sevante de la Mancha", 1700),
 		new Livro("Manual do Gaiteiro", "Fabricio", 2016),
 		new Livro("Altura", "Quebrick", 2020),

@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\carrinhoCompras.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\carrinhoCompras.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\conversorTemperatura.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\conversorTemperatura.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "carrinhoCompras.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\carrinhoCompras.php",
-              "RelativeDocumentMoniker": "side\\carrinhoCompras.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\carrinhoCompras.php",
-              "RelativeToolTip": "side\\carrinhoCompras.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Title": "conversorTemperatura.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\conversorTemperatura.php",
+              "RelativeDocumentMoniker": "side\\conversorTemperatura.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\conversorTemperatura.php",
+              "RelativeToolTip": "side\\conversorTemperatura.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-12T00:57:14.057Z",
+              "WhenOpened": "2025-08-12T22:54:09.791Z",
               "EditorCaption": ""
             },
             {
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "index.php",
               "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
               "RelativeToolTip": "index.php",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
               "WhenOpened": "2025-08-11T22:50:23.892Z",
               "EditorCaption": ""
