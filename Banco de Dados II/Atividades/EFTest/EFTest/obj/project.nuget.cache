@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oTZiIkkfKEM=",
+  "dgSpecHash": "D8VqRSmIoQA=",
   "success": true,
-  "projectFilePath": "D:\\Unoesc\\Programação I\\Atividades\\EFTest\\EFTest\\EFTest.csproj",
+  "projectFilePath": "D:\\Unoesc\\Banco de Dados II\\Atividades\\EFTest\\EFTest\\EFTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

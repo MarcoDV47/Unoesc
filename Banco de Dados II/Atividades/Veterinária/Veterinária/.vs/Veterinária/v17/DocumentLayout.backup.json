@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|d:\\unoesc\\banco de dados ii\\atividades\\veterin\u00E1ria\\veterin\u00E1ria\\veterin\u00E1ria\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|solutionrelative:veterin\u00E1ria\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|d:\\unoesc\\banco de dados ii\\atividades\\veterin\u00E1ria\\veterin\u00E1ria\\veterin\u00E1ria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|solutionrelative:veterin\u00E1ria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|d:\\unoesc\\banco de dados ii\\atividades\\veterin\u00E1ria\\veterin\u00E1ria\\veterin\u00E1ria\\models\\vacine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|solutionrelative:veterin\u00E1ria\\models\\vacine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|d:\\unoesc\\banco de dados ii\\atividades\\veterin\u00E1ria\\veterin\u00E1ria\\veterin\u00E1ria\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|solutionrelative:veterin\u00E1ria\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|d:\\unoesc\\banco de dados ii\\atividades\\veterin\u00E1ria\\veterin\u00E1ria\\veterin\u00E1ria\\models\\animalfamily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0922343A-FD00-48C0-AF62-2E1D7A32185A}|Veterin\u00E1ria\\Veterin\u00E1ria.csproj|solutionrelative:veterin\u00E1ria\\models\\animalfamily.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Veterin\u00E1ria\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Data\\DbInitializer.cs*",
+              "RelativeToolTip": "Veterin\u00E1ria\\Data\\DbInitializer.cs*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:59:05.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Program.cs",
+              "RelativeDocumentMoniker": "Veterin\u00E1ria\\Program.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Program.cs",
+              "RelativeToolTip": "Veterin\u00E1ria\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwC8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:56:28.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimalFamily.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\AnimalFamily.cs",
+              "RelativeDocumentMoniker": "Veterin\u00E1ria\\Models\\AnimalFamily.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\AnimalFamily.cs",
+              "RelativeToolTip": "Veterin\u00E1ria\\Models\\AnimalFamily.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:34:34.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vacine.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\Vacine.cs",
+              "RelativeDocumentMoniker": "Veterin\u00E1ria\\Models\\Vacine.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\Vacine.cs",
+              "RelativeToolTip": "Veterin\u00E1ria\\Models\\Vacine.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:27:44.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "Veterin\u00E1ria\\Models\\Animal.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Veterin\u00E1ria\\Veterin\u00E1ria\\Veterin\u00E1ria\\Models\\Animal.cs",
+              "RelativeToolTip": "Veterin\u00E1ria\\Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T00:25:10.383Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

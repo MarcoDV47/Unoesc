@@ -4,6 +4,7 @@
 
 	require_once './side/carro.php';
 	require_once './side/aluno.php';
+	require_once './side/alunoComplexo.php';
 	require_once './side/contaBancaria.php';
 	require_once './side/calculadora.php';
 	require_once './side/contato.php';
@@ -11,8 +12,11 @@
 	require_once './side/funcionario.php';
 	require_once './side/carrinhoCompras.php';
 	require_once './side/livro.php';
+	require_once './side/livroComplexo.php';
 	require_once './side/conversorTemperatura.php';
 
+	// Primeira folha de atividades
+	echo "<h2>Primeira Folha de Atividades</h2>";
 	// 1
 	echo "Ola, Programacao Orientada a Objetos! <br>";
 
@@ -73,15 +77,16 @@
 	}
 
 	// Segunda folha de atividades
+	echo "<hr><h2>Segunda Folha de Atividades</h2>";
 
 	// 1
-	echo "<br><br> <strong>Exercicio 1:</strong> <br><br>";
+	echo "<h3>Exercicio 1:</h3>";
 
 	$meuCarro = new Carro("Volkswagen", "Gol", 2020);  
 	$meuCarro->exibirInfo();
 
 	// 2
-	echo "<br><br><br> <strong>Exercicio 2:</strong> <br><br>";
+	echo "<h3>Exercicio 2:</h3>";
 
 	$aluno1 = new Aluno("Ana", 8.5);
 	$aluno2 = new Aluno("Pedro", 6.0);
@@ -94,7 +99,7 @@
 	"Aprovado" : "Reprovado");
 
 	// 3
-	echo "<br><br><br> <strong>Exercicio 3:</strong> <br><br>";
+	echo "<h3>Exercicio 3:</h3> ";
 
 	$conta1 = new ContaBancaria("Marco", 100);
 	$conta1->getSaldo();
@@ -104,7 +109,7 @@
 	$conta1->getSaldo();
 
 	// 4
-	echo "<br><br><br> <strong>Exercicio 4:</strong> <br><br>";
+	echo "<h3>Exercicio 4:</h3> ";
 
 	$calculadora1 = new Calculadora();
 	echo "Soma 1 + 10: ";
@@ -120,7 +125,7 @@
 	echo $calculadora1->dividir(50, 5);
 
 	// 5
-	echo "<br><br><br> <strong>Exercicio 5:</strong> <br><br>";
+	echo "<h3>Exercicio 5:</h3> ";
 
 	$contatos = [
 		new Contato("Marco", 493537, "@gmail.com"),
@@ -133,7 +138,7 @@
 	}
 
 	// 6
-	echo "<br><br> <strong>Exercicio 6:</strong> <br><br>";
+	echo "<h3>Exercicio 6:</h3> ";
 
 	echo "Quadrado 10 de largura e 5 altura. <br>";
 	$retangulo1 = new Retangulo(10, 5);
@@ -145,14 +150,14 @@
 	echo ".";
 
 	// 7 
-	echo "<br><br><br> <strong>Exercicio 7:</strong> <br><br>";
+	echo "<h3>Exercicio 7:</h3> ";
 
 	$funcionario1 = new Funcionario("Claudio", 3000);
 	echo "Claudio comecou com 3000 e agora tem: ";
 	echo $funcionario1->ajustarSalario(1.5);
 
 	// 8
-	echo "<br><br><br> <strong>Exercicio 8:</strong> <br><br>";
+	echo "<h3>Exercicio 8:</h3> ";
 	
 	$carrinho1 = new Carrinho();
 	$carrinho1->adicionarItem(new Item("Sabao", 10));
@@ -163,7 +168,7 @@
 	echo $carrinho1->somarValorTotal();
 
 	// 9
-	echo "<br><br><br> <strong>Exercicio 9:</strong> <br><br>";
+	echo "<h3>Exercicio 9:</h3> ";
 
 	$livros = array(
 		new Livro("Crime e Castigo", "Dostoiévski", 1800),
@@ -184,7 +189,7 @@
 	exibirLivrosAposData($livros, 2015);
 
 	// 10
-	echo "<br><br> <strong>Exercicio 10:</strong> <br><br>";
+	echo "<h3>Exercicio 10:</h3> ";
 	
 	$conversorTemperatura = new conversorTemperatura();
 	echo "100 Celcius para Fahrenheit: ";
@@ -192,4 +197,54 @@
 	echo "<br>";
 	echo "300 Fahrenheit para Celcius: ";
 	echo $conversorTemperatura->converterParaCelcius(300);
+
+	echo "<hr><h2>Aula Classes:</h2>";
+	echo "<h3>Exercicio 1:</h3>";
+
+	$conta2 = new ContaBancaria("Marco", 100);
+	$conta2->exibirDados();
+	$conta2->addSaldo(50);
+	echo "<br>";
+	$conta2->exibirDados();
+
+	echo "<h3>Exercicio 2:</h3>";
+
+	$alunoComplexo1 = new AlunoComplexo("Marco", 44010);
+	$alunoComplexo2 = new AlunoComplexo("Fabricio", 43390);
+
+	$alunoComplexo1->adicionarNota(rand(0, 10));
+	$alunoComplexo1->adicionarNota(rand(0, 10));
+	$alunoComplexo2->adicionarNota(rand(0, 10));
+	$alunoComplexo2->adicionarNota(rand(0, 10));
+	echo $alunoComplexo1->situacao();
+	echo "<br>";
+	echo $alunoComplexo2->situacao();
+
+	echo "<h3>Exercicio 3:</h3>";
+
+	$livroComplexo1 = new LivroComplexo(
+		"Brás Cubas",
+		"Machado de Assis",
+		1890,
+		200,
+		false
+	);
+	$livroComplexo1->setTitulo("Dom Casmurro");
+	$livroComplexo1->setAutor("Machado de Assis");
+	$livroComplexo1->setAnoPublicacao(1899);
+	$livroComplexo1->setNumeroPaginas(256);
+	$livroComplexo1->setDisponivel(true);
+	echo $livroComplexo1->getTitulo();
+	echo "<br>";
+	echo $livroComplexo1->getAno();
+	echo "<br>";
+	echo $livroComplexo1->getAutor();
+	echo "<br>";
+	// Teste de validação
+	try {
+	 $livroComplexo1->setAnoPublicacao(2030);
+	} catch (Exception $e) {
+	 echo "Erro: " . $e->getMessage();
+}
+
 ?>
