@@ -1,7 +1,5 @@
 using EFTest.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<SchoolContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("SchoolContext")
+        )
+);  
 
 var app = builder.Build();
 

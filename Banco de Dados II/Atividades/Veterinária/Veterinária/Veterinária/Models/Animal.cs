@@ -10,6 +10,7 @@ namespace Veterinária.Models
         public string? Name { get; set; }
         public int IdAnimalFamily { get; set; }
         [ForeignKey(nameof(IdAnimalFamily))]
+        public AnimalFamily? AnimalFamily { get; set; }
         public DateTime DateBorn { get; set; }
     }
 }

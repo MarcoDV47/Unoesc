@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unoesc\\Banco de Dados II\\Atividades\\GreenHouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{719D82BD-90A1-40C7-9FF7-35C9845AF898}|GreenHouse\\GreenHouse.csproj|d:\\unoesc\\banco de dados ii\\atividades\\greenhouse\\greenhouse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{719D82BD-90A1-40C7-9FF7-35C9845AF898}|GreenHouse\\GreenHouse.csproj|solutionrelative:greenhouse\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\GreenHouse\\GreenHouse\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GreenHouse\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\GreenHouse\\GreenHouse\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "GreenHouse\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-23T00:11:09.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

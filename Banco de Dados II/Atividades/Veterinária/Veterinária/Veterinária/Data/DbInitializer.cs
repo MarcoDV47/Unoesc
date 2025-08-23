@@ -18,10 +18,10 @@ namespace Veterinária.Data
 
             var animalFamilys = new AnimalFamily[]
             {
-                new AnimalFamily{Id=1, Family="Suíno"},
-                new AnimalFamily{Id=2, Family="Equino"},
-                new AnimalFamily{Id=3, Family="Bovino"},
-                new AnimalFamily{Id=4, Family="Galináceo"},
+                new AnimalFamily{Family="Suíno"},
+                new AnimalFamily{Family="Equino"},
+                new AnimalFamily{Family="Bovino"},
+                new AnimalFamily{Family="Galináceo"},
             };
             foreach (AnimalFamily a in animalFamilys)
             {
@@ -38,14 +38,14 @@ namespace Veterinária.Data
 
             var animals = new Animal[]
             {
-                new Animal{Id=1, Name="Alexander",DateBorn=DateTime.Parse("2005-09-01")},
-                new Animal{Id=2, Name="Alonso",DateBorn=DateTime.Parse("2002-09-01")},
-                new Animal{Id=3, Name="Anand",DateBorn=DateTime.Parse("2003-09-01")},
-                new Animal{Id=4, Name="Barzdukas",DateBorn=DateTime.Parse("2002-09-01")},
-                new Animal{Id=5, Name="Li",DateBorn=DateTime.Parse("2002-09-01")},
-                new Animal{Id=6, Name="Justice",DateBorn=DateTime.Parse("2001-09-01")},
-                new Animal{Id=7, Name="Norman",DateBorn=DateTime.Parse("2003-09-01")},
-                new Animal{Id=8, Name="Olivetto",DateBorn=DateTime.Parse("2005-09-01")}
+                new Animal{Name="Alexander", AnimalFamily = animalFamilys[0],DateBorn=DateTime.Parse("2005-09-01")},
+                new Animal{Name="Alonso", AnimalFamily = animalFamilys[2],DateBorn=DateTime.Parse("2002-09-01")},
+                new Animal{Name="Anand", AnimalFamily = animalFamilys[3],DateBorn=DateTime.Parse("2003-09-01")},
+                new Animal{Name="Barzdukas", AnimalFamily = animalFamilys[1],DateBorn=DateTime.Parse("2002-09-01")},
+                new Animal{Name="Li", AnimalFamily = animalFamilys[0],DateBorn=DateTime.Parse("2002-09-01")},
+                new Animal{Name="Justice", AnimalFamily = animalFamilys[4],DateBorn=DateTime.Parse("2001-09-01")},
+                new Animal{Name="Norman", AnimalFamily = animalFamilys[5],DateBorn=DateTime.Parse("2003-09-01")},
+                new Animal{Name="Olivetto", AnimalFamily = animalFamilys[2],DateBorn=DateTime.Parse("2005-09-01")}
             };
             foreach (Animal a in animals)
             {

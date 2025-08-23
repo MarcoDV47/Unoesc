@@ -457,3 +457,4 @@ D:\Unoesc\Banco de Dados II\Atividades\EFTest\EFTest\obj\Debug\net9.0\refint\EFT
 D:\Unoesc\Banco de Dados II\Atividades\EFTest\EFTest\obj\Debug\net9.0\EFTest.pdb
 D:\Unoesc\Banco de Dados II\Atividades\EFTest\EFTest\obj\Debug\net9.0\EFTest.genruntimeconfig.cache
 D:\Unoesc\Banco de Dados II\Atividades\EFTest\EFTest\obj\Debug\net9.0\ref\EFTest.dll
+D:\Unoesc\Banco de Dados II\Atividades\EFTest\EFTest\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

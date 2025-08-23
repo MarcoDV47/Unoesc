@@ -1,7 +1,5 @@
 using Veterinária.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Hosting;
-using System.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<VetContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("VetContext")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("VetContext")
+));
 
 var app = builder.Build();
 

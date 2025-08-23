@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using EFTest.Models;
+using EFTest.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EFTest.Controllers
@@ -7,15 +8,20 @@ namespace EFTest.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly SchoolContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ILogger<HomeController> logger,
+            SchoolContext context
+        )
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Students.ToList());
         }
 
         public IActionResult Privacy()

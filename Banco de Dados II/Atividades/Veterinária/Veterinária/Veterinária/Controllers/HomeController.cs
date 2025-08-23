@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Veterinária.Data;
 using Veterinária.Models;
 
 namespace Veterinária.Controllers
@@ -7,15 +9,21 @@ namespace Veterinária.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly VetContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            ILogger<HomeController> logger,
+            VetContext context
+        )
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var animais = _context.Animals.Include(a => a.AnimalFamily).ToList();
+            return View(animais);
         }
 
         public IActionResult Privacy()
