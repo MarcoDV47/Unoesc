@@ -58,7 +58,10 @@
 	// 7 
 
 	$produto1 = new Produto("Revolver", 300, 1);
-	$produto1->valorTotal();
+	$produto1->getPreco();
+	$produto1->setPreco(500);
+	echo "<br>";
+	$produto1->getPreco();
 	echo "<br>";
 	$produto1->exibirDetalhes();
 	echo "<br>";

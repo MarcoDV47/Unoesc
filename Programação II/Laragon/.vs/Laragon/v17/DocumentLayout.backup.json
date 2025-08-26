@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\alunoComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\produto.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\produto.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\livroComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "produto.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\produto.php",
-              "RelativeDocumentMoniker": "side\\produto.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\produto.php",
-              "RelativeToolTip": "side\\produto.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "alunoComplexo.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php",
+              "RelativeDocumentMoniker": "side\\alunoComplexo.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php",
+              "RelativeToolTip": "side\\alunoComplexo.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-12T23:28:20.121Z",
+              "WhenOpened": "2025-08-19T00:44:41.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "livroComplexo.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php",
+              "RelativeDocumentMoniker": "side\\livroComplexo.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php",
+              "RelativeToolTip": "side\\livroComplexo.php",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-08-19T00:22:36.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "index.php",
               "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
               "RelativeDocumentMoniker": "index.php",
               "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
               "RelativeToolTip": "index.php",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAANYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-11T22:50:23.892Z",
+              "WhenOpened": "2025-08-18T23:25:39.297Z",
               "EditorCaption": ""
             }
           ]
