@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\alunoComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 04 - Visibilidade\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:side\\livroComplexo.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\conexaoBD.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 04 - Visibilidade\\side\\conexaoBD.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\contaBancaria.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 04 - Visibilidade\\side\\contaBancaria.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\cliente.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 04 - Visibilidade\\side\\cliente.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\pedido.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 04 - Visibilidade\\side\\pedido.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "alunoComplexo.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php",
-              "RelativeDocumentMoniker": "side\\alunoComplexo.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\alunoComplexo.php",
-              "RelativeToolTip": "side\\alunoComplexo.php",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Title": "index.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\index.php",
+              "RelativeDocumentMoniker": "Aula 04 - Visibilidade\\index.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\index.php",
+              "RelativeToolTip": "Aula 04 - Visibilidade\\index.php",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-19T00:44:41.452Z",
+              "WhenOpened": "2025-08-26T01:03:18.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "livroComplexo.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php",
-              "RelativeDocumentMoniker": "side\\livroComplexo.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\side\\livroComplexo.php",
-              "RelativeToolTip": "side\\livroComplexo.php",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
+              "Title": "conexaoBD.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\conexaoBD.php",
+              "RelativeDocumentMoniker": "Aula 04 - Visibilidade\\side\\conexaoBD.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\conexaoBD.php",
+              "RelativeToolTip": "Aula 04 - Visibilidade\\side\\conexaoBD.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-19T00:22:36.24Z",
+              "WhenOpened": "2025-08-26T01:00:19.864Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
-              "RelativeDocumentMoniker": "index.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
-              "RelativeToolTip": "index.php",
-              "ViewState": "AgIAAMgAAAAAAAAAAAAAANYAAAArAAAAAAAAAA==",
+              "Title": "contaBancaria.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\contaBancaria.php",
+              "RelativeDocumentMoniker": "Aula 04 - Visibilidade\\side\\contaBancaria.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\contaBancaria.php",
+              "RelativeToolTip": "Aula 04 - Visibilidade\\side\\contaBancaria.php",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-08-18T23:25:39.297Z",
+              "WhenOpened": "2025-08-26T00:56:35.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cliente.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\cliente.php",
+              "RelativeDocumentMoniker": "Aula 04 - Visibilidade\\side\\cliente.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\cliente.php",
+              "RelativeToolTip": "Aula 04 - Visibilidade\\side\\cliente.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-08-26T00:53:29.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pedido.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\pedido.php",
+              "RelativeDocumentMoniker": "Aula 04 - Visibilidade\\side\\pedido.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 04 - Visibilidade\\side\\pedido.php",
+              "RelativeToolTip": "Aula 04 - Visibilidade\\side\\pedido.php",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-08-26T00:42:02.347Z",
               "EditorCaption": ""
             }
           ]

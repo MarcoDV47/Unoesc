@@ -17,6 +17,6 @@
 
 		function getNome(){
 			return $this->nome;
-		}
+		}		
 	}
 ?>
