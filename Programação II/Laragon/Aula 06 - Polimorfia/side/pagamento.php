@@ -2,22 +2,22 @@
 
 	class Pagamento{
 		function processar(){
-			return "Processado";
+			echo "Processado";
 		}
 	}
 	class Cartao extends Pagamento{
 		function processar(){
-			return "Cartao processado";
+			echo "Cartao processado";
 		}
 	}
 	class Pix extends Pagamento{
 		function processar(){
-			return "Pix processado";
+			echo "Pix processado";
 		}
 	}
 	class Boleto extends Pagamento{
 		function processar(){
-			return "Boleto processado";
+			echo "Boleto processado";
 		}
 	}
 ?>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|d:\\unoesc\\banco de dados ii\\atividades\\scaffold\\scaffold\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|solutionrelative:scaffold\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|d:\\unoesc\\banco de dados ii\\atividades\\scaffold\\scaffold\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|solutionrelative:scaffold\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|d:\\unoesc\\banco de dados ii\\atividades\\scaffold\\scaffold\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|solutionrelative:scaffold\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|d:\\unoesc\\banco de dados ii\\atividades\\scaffold\\scaffold\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|solutionrelative:scaffold\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|d:\\unoesc\\banco de dados ii\\atividades\\scaffold\\scaffold\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A0B6649-A714-4C4D-8016-6BD269915BCB}|Scaffold\\Scaffold.csproj|solutionrelative:scaffold\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Scaffold\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Scaffold\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:17:49.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\appsettings.json",
+              "RelativeDocumentMoniker": "Scaffold\\appsettings.json",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\appsettings.json",
+              "RelativeToolTip": "Scaffold\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T23:07:21.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Program.cs",
+              "RelativeDocumentMoniker": "Scaffold\\Program.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Program.cs",
+              "RelativeToolTip": "Scaffold\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:05:12.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "Scaffold\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "Scaffold\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T23:00:25.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Scaffold\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Unoesc\\Banco de Dados II\\Atividades\\Scaffold\\Scaffold\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Scaffold\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-24T22:45:54.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

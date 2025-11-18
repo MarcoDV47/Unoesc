@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 06 - Polimorfia\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 07 - Agrega\u00E7\u00E3o\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\side\\figuraGeometrica.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 06 - Polimorfia\\side\\figuraGeometrica.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "figuraGeometrica.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\side\\figuraGeometrica.php",
-              "RelativeDocumentMoniker": "Aula 06 - Polimorfia\\side\\figuraGeometrica.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\side\\figuraGeometrica.php",
-              "RelativeToolTip": "Aula 06 - Polimorfia\\side\\figuraGeometrica.php",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "index.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
+              "RelativeDocumentMoniker": "index.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\index.php",
+              "RelativeToolTip": "index.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-09-16T00:26:08.206Z",
+              "WhenOpened": "2025-09-30T00:47:23.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "turma.php",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php",
+              "RelativeDocumentMoniker": "Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php",
+              "RelativeToolTip": "Aula 07 - Agrega\u00E7\u00E3o\\side\\turma.php",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-09-30T00:37:47.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.php",
-              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\index.php",
-              "RelativeDocumentMoniker": "Aula 06 - Polimorfia\\index.php",
-              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 06 - Polimorfia\\index.php",
-              "RelativeToolTip": "Aula 06 - Polimorfia\\index.php",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAATAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\index.php",
+              "RelativeDocumentMoniker": "Aula 07 - Agrega\u00E7\u00E3o\\index.php",
+              "ToolTip": "D:\\Unoesc\\Programa\u00E7\u00E3o II\\Laragon\\Aula 07 - Agrega\u00E7\u00E3o\\index.php",
+              "RelativeToolTip": "Aula 07 - Agrega\u00E7\u00E3o\\index.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
-              "WhenOpened": "2025-09-15T23:03:24.058Z",
+              "WhenOpened": "2025-09-29T23:04:06.717Z",
               "EditorCaption": ""
             }
           ]

@@ -5,19 +5,10 @@
 	require_once './side/pagamento.php';
 	require_once './side/notificacao.php';
 	require_once './side/figuraGeometrica.php';
-
-	require_once './side/contaBancaria.php';
-	require_once './side/produto.php';
-	require_once './side/cliente.php';
-	require_once './side/usuario.php';
-	require_once './side/funcionario.php';
-	require_once './side/gerente.php';
-	require_once './side/pedido.php';
-	require_once './side/carro.php';
-	require_once './side/aluno.php';
-	require_once './side/config.php';
-	require_once './side/configManager.php';
-	require_once './side/carrinhoCompras.php';
+	require_once './side/veiculo.php';
+	require_once './side/impressora.php';
+	require_once './side/mensagem.php';
+	require_once './side/transporte.php';
 
 	echo "<h1>Exercicios</h1>";
 
@@ -35,6 +26,7 @@
 	echo "<h2>Calculadora:</h2>";
 
 	$calculadora1 = new Calculadora();
+
 	$calculadora1->somar(1, 2, 3);
 	echo "<br>";
 	$calculadora1->somar(1, 2);
@@ -47,14 +39,25 @@
 	$cartao1 = new Cartao();
 	$pix1 = new Pix();
 	$boleto1 = new Boleto();
+
+	$pagamento1->processar();
+	echo "<br>";
+	$cartao1->processar();
+	echo "<br>";
+	$pix1->processar();
+	echo "<br>";
+	$boleto1->processar();
 	
 	echo "<h2>Notificacao:</h2>";
 
 	$email1 = new Email();
 	$sms1 = new SMS();
 	$push1 = new Push();
+
 	$email1->enviar();
+	echo "<br>";
 	$sms1->enviar();
+	echo "<br>";
 	$push1->enviar();
 
 
@@ -63,6 +66,7 @@
 	$quadrado1 = new Quadrado(10);
 	$circulo1 = new Circulo(5);
 	$retangulo1 = new Retangulo(10, 15);
+
 	$quadrado1->calcularArea();
 	echo "<br>";
 	$circulo1->calcularArea();
@@ -70,102 +74,54 @@
 	$retangulo1->calcularArea();
 
 
-	echo "<h2>Conta Bancaria:</h2>";
-
-	$conta1 = new ContaBancaria();
-	$conta1->depositar(50);
-	$conta1->mostrarSaldo();
-	$conta1->sacar(40);;
-	$conta1->mostrarSaldo();
-
-
-	echo "<h2>Produto:</h2>";
-
-	$produto1 = new Produto("Revolver", 300, 1);
-	$produto1->getPreco();
-	$produto1->setPreco(500);
-	echo "<br>";
-	$produto1->getPreco();
-	echo "<br>";
-	$produto1->exibirDetalhes();
-	echo "<br>";
-
-
-	echo "<h2>Cliente:</h2>";
-
-	$cliente1 = new Cliente("Marco", 041.578);
-	echo "<br>";
-	$cliente1->setNome("Claudio");
-	echo "<br>";
-	$cliente1->cancelarCPF();
-	
-
-	echo "<h2>Usuario:</h2>";
-
-	$usuario1 = new Usuario("Marco", 1234);
-	$usuario1->verificarSenha(12345);
-	echo "<br>";
-	$usuario1->verificarSenha(1234);
-
-
-	echo "<h2>Funcionario / Gerente:</h2>";
-
-	$funcionario1 = new Funcionario("Marco", 4000);
-	$gerente1 = new Gerente();
-	$gerente1->ajustarSalario(1.20, $funcionario1);
-	$funcionario1->getSalario();
-
-
-	echo "<h2>Pedido:</h2>";
-
-	$pedido1 = new Pedido();
-	$item1 = new ItemPedido("Revolver", 300);
-	$item2 = new ItemPedido("Tomate", 5);
-	$item3 = new ItemPedido("Joelheira", 80);
-
-	$pedido1->adicionarItem($item1);
-	$pedido1->adicionarItem($item2);
-	$pedido1->adicionarItem($item3);
-
-	$pedido1->exibirItemPorNumero(1);
-	echo "<br>";
-	$pedido1->somarValorTotal();
-
-
-	echo "<h2>Carro:</h2> ";
+	echo "<h2>Veiculo:</h2>";
 
 	$carro1 = new Carro();
-	$carro1->acelerar(120);
-	$carro1->frear(40);
+	$bicicleta1 = new Bicicleta();
+	$aviao1 = new Aviao();
 
-	
-	echo "<h2>Aluno:</h2> ";
-
-	$aluno1 = new Aluno("Ana", 8.5);
-	$aluno1->getNota();
+	$carro1->mover(30);
 	echo "<br>";
-	$aluno1->alterarNota(9);
-	$aluno1->getNota();
-
-
-	echo "<h2>Config:</h2>";
-
-	$config1 = new Config("Mortadela");
-	$config1->getParametros();
+	$bicicleta1->mover(10);
 	echo "<br>";
-	$configManager1 = new ConfigManager();
-	$configManager1->setParametro("Bob Esponja", $config1);
-	$config1->getParametros();
+	$aviao1->mover(200);
 
-	
-	echo "<h2>Carrinho de Compras:</h2>";
 
-	$carrinho1 = new Carrinho();
-	$carrinho1->adicionarItem(new Item("Sabao", 10));
-	$carrinho1->adicionarItem(new Item("Sabonete", 20));
-	$carrinho1->adicionarItem(new Item("Saboneteira", 5));
+	echo "<h2>Impressora:</h2>";
 
-	echo "Sabao 10 + Sabonete 20 + Saboneteira 5 = ";
-	echo $carrinho1->somarValorTotal();
-	
+	$pdf1 = new PDF();
+	$texto1 = new Texto();
+	$imagem1 = new Imagem();
+
+	$pdf1->imprimir("TCC");
+	echo "<br>";
+	$texto1->imprimir("Bom dia");
+	echo "<br>";
+	$imagem1->imprimir("Pudim.png");
+
+
+	echo "<h2>Mensagem:</h2>";
+
+	$mensagem1 = new Mensagem();
+
+	$mensagem1->formatar("HelLo WoRlD", "M");
+	echo "<br>";
+	$mensagem1->formatar("HelLo WoRlD", "m");
+	echo "<br>";
+	$mensagem1->formatar("HelLo WoRlD", "c");
+	echo "<br>";
+	$mensagem1->formatar("HelLo WoRlD");
+
+	echo "<h2>Transporte:</h2>";
+
+	$onibus1 = new Onibus();
+	$metro1 = new Metro();
+	$taxi1 = new Taxi();
+
+	$onibus1->calcularTarifa(5, 7, 10);
+	echo "<br>";
+	$metro1->calcularTarifa(7, 4, 5);
+	echo "<br>";
+	$taxi1->calcularTarifa(3, 7, 5);
+
 ?>

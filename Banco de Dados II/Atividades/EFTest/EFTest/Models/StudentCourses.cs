@@ -1,21 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EFTest.Models
 {
-    [PrimaryKey(nameof(StudentId), nameof(CourseId))]
+    [PrimaryKey(nameof(StudentID), nameof(CourseID))]
     public class StudentCourses
     {
-        public int StudentId { get; set; }
-
-        // Property Navigations
-        [ForeignKey(nameof(StudentId))]
+        public int StudentID { get; set; }
+        // Property Navigation
+        [ForeignKey(nameof(StudentID))]
         public Student? Student { get; set; }
-
-        public int CourseId { get; set; }
-        [ForeignKey(nameof(CourseId))]
+        public int CourseID { get; set; }
+        [ForeignKey(nameof(CourseID))]
         public Course? Course { get; set; }
+        public DateTime SignDate { get; set; }
+        public DateTime? CancelDate { get; set; }
+
     }
 }

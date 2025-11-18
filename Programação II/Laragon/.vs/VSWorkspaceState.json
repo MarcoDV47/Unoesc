@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Aula 05 - Encapsulamento\\side",
-    "\\Aula 06 - Polimorfia",
-    "\\Aula 06 - Polimorfia\\side"
+    "\\Aula 06 - Polimorfia\\side",
+    "\\Aula 07 - Agregação",
+    "\\Aula 07 - Agregação\\side"
   ],
-  "SelectedNode": "\\Aula 06 - Polimorfia\\side\\notificacao.php",
+  "SelectedNode": "\\index.php",
   "PreviewInSolutionExplorer": false
 }

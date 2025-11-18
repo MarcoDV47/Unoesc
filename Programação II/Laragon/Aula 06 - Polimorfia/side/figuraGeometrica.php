@@ -11,7 +11,7 @@
 			$this->lado = $lado;
 		}
 		function calcularArea(){
-			echo $this->lado * $this->lado;
+			echo "Quadrado: " . $this->lado * $this->lado;
 		}
 	}
 	
@@ -22,7 +22,7 @@
 			$this->raio = $raio;
 		}
 		function calcularArea(){
-			echo round(pow($this->raio, 2) * pi(), 2);
+			echo "Circulo: " . round(pow($this->raio, 2) * pi(), 2);
 		}
 	}	
 	class Retangulo extends FiguraGeometrica{
@@ -35,7 +35,7 @@
 		}
 
 		public function calcularArea(){
-			echo $this->base * $this->altura;
+			echo "Retangulo: " . $this->base * $this->altura;
 		}
 	}
 ?>

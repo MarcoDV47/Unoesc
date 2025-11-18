@@ -5,9 +5,12 @@ namespace EFTest.Data
 {
     public class SchoolContext : DbContext
     {
-        public SchoolContext(DbContextOptions<SchoolContext> options) : base(options)
+        public SchoolContext(
+            DbContextOptions<SchoolContext> options)
+        : base(options)
         {
         }
+
         public DbSet<Student> Students { get; set; }
 
         public DbSet<Course> Courses { get; set; }
@@ -17,6 +20,8 @@ namespace EFTest.Data
         {
             modelBuilder.Entity<Student>().ToTable("Student");
             modelBuilder.Entity<Course>().ToTable("Course");
+            modelBuilder.Entity<StudentCourses>()
+                        .HasKey(sc => new { sc.StudentID, sc.CourseID });
         }
     }
 }

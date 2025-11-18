@@ -24,27 +24,27 @@ namespace EFTest.Migrations
 
             modelBuilder.Entity("EFTest.Models.Course", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
                     b.ToTable("Course", (string)null);
                 });
 
             modelBuilder.Entity("EFTest.Models.Student", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
                     b.Property<DateTime>("EnrollmentDate")
                         .HasColumnType("datetime2");
@@ -55,22 +55,28 @@ namespace EFTest.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("ID");
 
                     b.ToTable("Student", (string)null);
                 });
 
             modelBuilder.Entity("EFTest.Models.StudentCourses", b =>
                 {
-                    b.Property<int>("StudentId")
+                    b.Property<int>("StudentID")
                         .HasColumnType("int");
 
-                    b.Property<int>("CourseId")
+                    b.Property<int>("CourseID")
                         .HasColumnType("int");
 
-                    b.HasKey("StudentId", "CourseId");
+                    b.Property<DateTime?>("CancelDate")
+                        .HasColumnType("datetime2");
 
-                    b.HasIndex("CourseId");
+                    b.Property<DateTime>("SignDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("StudentID", "CourseID");
+
+                    b.HasIndex("CourseID");
 
                     b.ToTable("StudentCourses");
                 });
@@ -79,13 +85,13 @@ namespace EFTest.Migrations
                 {
                     b.HasOne("EFTest.Models.Course", "Course")
                         .WithMany("StudentCourses")
-                        .HasForeignKey("CourseId")
+                        .HasForeignKey("CourseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("EFTest.Models.Student", "Student")
                         .WithMany("StudentCourses")
-                        .HasForeignKey("StudentId")
+                        .HasForeignKey("StudentID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
