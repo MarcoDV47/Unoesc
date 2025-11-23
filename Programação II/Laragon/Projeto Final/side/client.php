@@ -2,30 +2,55 @@
 
 class Client
 {
-	private string $name;
 	private string $enrollment;
-	private Address $address;
+	private string $name;
+	private string $passwordHash;
+	private Course $course;
 
-	function __construct($name, $enrollment, $address)
+	function __construct(string $enrollment, string $name, string $crudePassword)
 	{
-		$this->name = $name;
-		$this->enrollment = $enrollment;
-		$this->address = $address;
+		$this->setEnrollment($enrollment);
+		$this->setName($name);
+		$this->setPasswordHash($crudePassword);
 	}
-	
-	public function getName()
-	{
-		return $this->name;
-	}	
 
-	public function getEnrollment()
+	//Getters
+
+	public function getEnrollment(): string
 	{
 		return $this->enrollment;
 	}
 
-	public function getAddress()
+	public function getName(): string
 	{
-		return $this->address;
+		return $this->name;
+	}	
+
+	public function getPasswordHash(): string
+	{
+		return $this->passwordHash;
+	}
+
+	//Setters
+
+	public function setEnrollment(string $enrollment): void
+	{
+		$this->enrollment = $enrollment;
+	}
+
+	public function setName(string $name) : void
+	{
+		$this->name = $name;
+	}
+
+	public function setPasswordHash(string $crudePassword): void
+	{
+		$this->passwordHash = password_hash($crudePassword, PASSWORD_DEFAULT);
+	}
+
+	public function validatePassword(string $password): bool
+	{
+		return password_verify($password, $this->passwordHash);
 	}
 }
 

@@ -1,6 +1,6 @@
 <?php
 
-class Product
+class _Produto
 {
 	private static int $instanceCount = 0;
 	private int $id;

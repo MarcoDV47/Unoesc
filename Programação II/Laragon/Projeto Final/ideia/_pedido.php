@@ -1,6 +1,6 @@
 <?php
 
-class Order
+class _Pedido
 {
 	private array $shopCart = [];
 	private float $total = 0;
