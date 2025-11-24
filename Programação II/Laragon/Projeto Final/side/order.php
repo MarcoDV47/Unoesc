@@ -4,14 +4,18 @@ class Order
 {
 	private array $shopCart = [];
 	private float $total = 0;
-	private Client $client;
+	private string $answer = "yes";
+	private Student $student;
 	private Address $address;
 	private bool $isDelivered = false;
 
-	function __construct(Client $client, Address $address)
+	function __construct(Student $student, Address $address)
 	{
-		$this->setClient($client);
-		$this->setAddress($address);
+		$this->setStudent($student);
+		if (!isset($address)) {
+			$this->setAddress(getDefaultAddress());
+		}
+		else $this->setAddress($address);
 	}
 
 	//Getters
@@ -24,9 +28,14 @@ class Order
 		return $this->total;
 	}
 
-	public function getClient(): Client
+	public function getStudent(): Student
 	{
-		return $this->client;
+		return $this->student;
+	}
+
+	public function getAnswer(): string
+	{
+		return $this->answer;
 	}
 
 	public function getAddress(): Address
@@ -34,20 +43,32 @@ class Order
 		return $this->address;
 	}
 
-	public function getIsDelivered()
+	public function getIsDelivered() : bool
 	{
 		return $this->isDelivered;
 	}
 
-	//Setters
-	public function setClient(Client $client): void
+	public function getDefaultAddress() : Address
 	{
-		$this->client = $client;
+			$weekDay = date('w');
+			$student = $this->getStudent();
+			$studentCourse = $student->getCourse();
+			$studentSemester = $student->getSemester();
+			$studentClass = $studentCourse->getSpecificClass($studentSemester, $weekDay);
+			return $studentClass->getAddress();
 	}
+
+	//Setters
+	public function setStudent(Student $student): void
+	{
+		$this->student = $student;
+	}
+
 	public function setAddress(Address $address): void
 	{
 		$this->address = $address;
 	}
+
 	public function setIsDelivered(bool $isDelivered): void
 	{
 		$this->isDelivered = $isDelivered;
@@ -55,7 +76,7 @@ class Order
 
 	//Funcoes Proprias
 
-	public function addItem($product)
+	public function addItem($product) : void
 	{
 		if(is_array($product))
 		{
@@ -67,20 +88,16 @@ class Order
 		else $this->shopCart[] = $product;
 	}
 
-	public function addMultipleItems($product, $quantity)
+	public function getShoppingCart() : array
+	{
+		return $this->shopCart;
+	}
+
+	public function addMultipleItems($product, $quantity) : void
 	{
 		for ($i = 0; $i < $quantity; $i++)
 		{
 			$this->addItem($product);
-		}
-	}
-
-	public function showProductNames()
-	{
-		foreach($this->shopCart as $product)
-		{
-			echo $product->getName();
-			echo "<br/>";
 		}
 	}
 }

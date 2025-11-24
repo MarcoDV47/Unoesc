@@ -44,6 +44,7 @@ class Address
 		$this->block = $m;	
 
 	}
+
 	public function setRoomNumber(int $roomNumber): void
 	{
 		if($roomNumber <= 0)
@@ -52,6 +53,7 @@ class Address
 			}
 		$this->roomNumber = $roomNumber;
 	}
+
 	public function setRoomFloor(int $roomFloor): void
 	{
 		$this->roomFloor = $roomFloor;

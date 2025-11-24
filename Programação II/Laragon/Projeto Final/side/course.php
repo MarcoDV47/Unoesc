@@ -35,28 +35,19 @@ class Course
 		return $total; 
 	}
 
-	public function showAllSemesterClasses(int $semesterNumber): void
+	public function getTotalClasses(): array
 	{
-		for ($i = 0; $i < count($this->classes[$semesterNumber]); $i++)
-		{
-			echo ($this->classes[$semesterNumber][$i])->getName() . "</br>";
-		}
+		return $this->classes;
 	}
 
-	public function showTotalClasses(): void{
-		for($i = 0; $i < count($this->classes); $i++)
-		{
-			for($j = 0; $j < count($this->classes[$i]); $j++)
-			{
-				echo $this->classes[$i][$j]->getName() . "</br>";		
-			}
-			echo "</br>";
-		}
+	public function getSemesterClasses(int $semesterNumber): array
+	{
+		return $this->classes[$semesterNumber];
 	}
 
-	public function getSpecificClass(int $semesterNumber, int $dayOfWeek): void
+	public function getSpecificClass(int $semesterNumber, int $dayOfWeek): Subject
 	{
-		echo $this->classes[$semesterNumber][$dayOfWeek]->getName();
+		return $this->classes[$semesterNumber][$dayOfWeek];
 	}
 
 	public function addClass(int $semesterNumber, $subject): void

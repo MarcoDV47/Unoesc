@@ -1,12 +1,12 @@
 <?php
 
 require_once "./side/product.php";
-require_once "./side/order.php";
-require_once "./side/client.php";
 require_once "./side/address.php";
+require_once "./side/student.php";
 require_once "./side/store.php";
-require_once "./side/course.php";
 require_once "./side/subject.php";
+require_once "./side/course.php";
+require_once "./side/order.php";
 
 //-------------------------------------- DECLARAÇÕES -----------------------------------
 
@@ -22,10 +22,6 @@ $product5 = new Product("Red Bull", 18.99, "Energético popular");
 
 $address1 = new Address("D", 11, 2);
 $address2 = new Address("K", 9, 3);
-
-// CLIENTES
-
-$client1 = new Client("440468", "Marco", "1234");
 
 // AULAS
 
@@ -141,6 +137,12 @@ $course1->addAllClasses(
 	]
 );
 
+// ALUNOS
+
+$student1 = new Student("440468", "Marco", "1234", $course1, 4);
+$student2 = new Student("440469", "Lucas", "12345", $course1, 4);
+$student3 = new Student("440470", "Jorge", "123456", $course1, 4);
+
 // LOJA
 
 $store1 = new Store("Café e Cia");
@@ -153,27 +155,26 @@ $store1->addMenuItems(
 		$product4
 	]
 );
-
 $store1->addMenuItems($product5);
 
-//----------- Funcoes -----------
+//----------- Funções -----------
 
 // PEDIDOS
 
-$order1 = new Order($client1, $address1);
+$order1 = new Order($student1, $address1);
 $order1->addMultipleItems($product1, 2);
 $order1->addItem($product2);
 $order1->addItem([$product2, $product4, $product3]);
 
 // ZONA DE TESTES
 
-echo "<h2>Cliente</h2>";
-echo "<h3>Informações Cliente 1</h3>";
+echo "<h2>Estudante</h2>";
+echo "<h3>Informações estudante 1</h3>";
 echo "<ul>";
-echo "<li>Nome: {$client1->getName()}</li>";
-echo "<li>Id: {$client1->getEnrollment()}</li>";
-echo "<li>Senha 1234 confere: " . (($client1->validatePassword("1234")) ? ("true") : ("false")) .  "</li>";
-echo "<li>Senha 12345 confere: " . (($client1->validatePassword("12345")) ? ("true") : ("false")) .  "</li>";
+echo "<li>Nome: {$student1->getName()}</li>";
+echo "<li>Id: {$student1->getEnrollment()}</li>";
+echo "<li>Senha 1234 confere: " . (($student1->isPasswordValid("1234")) ? ("true") : ("false")) .  "</li>";
+echo "<li>Senha 12345 confere: " . (($student1->isPasswordValid("12345")) ? ("true") : ("false")) .  "</li>";
 echo "</ul>";
 
 echo "<h2>Endereço</h2>";
@@ -199,8 +200,13 @@ echo "<h2>Loja</h2>";
 echo "<h3>Informações Loja 1</h3>";
 echo "<ul>";
 echo "<li>Nome: {$store1->getName()}</li>";
-echo "<li>Menu:</li>";
-	 $store1->showMenu();
+echo "<li><strong>Menu:</strong></li>";
+	echo "<ul>";
+		foreach ($store1->getMenu() as $i) 
+		{
+			echo "<li>{$i->getName()}</li>";
+		}
+	echo "</ul>";
 echo "</ul>";
 
 echo "<h2>Matéria</h2>";
@@ -217,45 +223,47 @@ echo "<h3>Informações Curso 1</h3>";
 echo "<ul>";
 echo "<li>Nome: {$course1->getName()}</li>";
 echo "<li>Matérias totais no curso: {$course1->getTotalClassesNumber()}</li>";
-echo "<li>Todas as matérias: </li>";
-	 $course1->showTotalClasses();
-echo "<li>Selecionar matéria: </li>";
-echo $course1->getSpecificClass(0, 4);
+echo "<li><strong>Matérias do terceiro semestre:</strong></li>";
+	echo "<ul>";
+		foreach ($course1->getSemesterClasses(2) as $c) 
+		{
+			echo "<li>{$c->getName()}</li>";
+		}
+	echo "</ul>";
+echo "<li><strong>Todas as matérias:</strong></li>";
+	echo "<ul>";
+		foreach ($course1->getTotalClasses() as $semester) 
+		{
+			foreach ($semester as $class) 
+			{
+				echo "<li>{$class->getName()}</li>";
+			}
+			echo "<br />";
+		}
+	echo "</ul>";
+echo "<li><strong>Selecionar matéria da sexta-feira do primeiro semestre:</strong></li>";
+echo "<ul><li>{$course1->getSpecificClass(0, 4)->getName()}</ul></li>";
 echo "</ul>";
 
 echo "<h2>Pedido</h2>";
 echo "<h3>Informações Pedido 1</h3>";
 echo "<ul>";
-echo "<li>Nome do cliente: {$order1->getClient()->getName()}</li>";
+echo "<li>Nome do estudante: {$order1->getStudent()->getName()}</li>";
 echo "<li>Total do pedido: {$order1->getTotal()}</li>";
 echo "<li>Foi entregue: " . (($order1->getIsDelivered()) ? ("true") : ("false")) .  "</li>";
-echo "<li>Produtos no carrinho: </li>"; 
-$order1->showProductNames();
-echo "</ul>";
-
-	//Order atrelado ao Endereco
-	//Subject atrelado ao Endreco
-	/*
-		$diaSemana Date.Now();
-		$order2 = new Order(...);
-
-		Order{
-
-			private Client $client;
-			private Address $address;
-
-		function __constructor(Client $client, Address $address)
+echo "<li><strong>Produtos no carrinho:</strong></li>"; 
+	echo "<ul>";
+		foreach ($order1->getShoppingCart() as $i) 
 		{
-			$weekDay = Date.Now.WeekDay();
-
-			LEMBRAR DE COLOCAR CURSO NO CLIENTE
-
-			$cursoCliente = $this->client->getCourse();
-
-			$aulaCliente = cursoCliente->getSpecificClass($semestre, $weekDay);
-
-			$this->address = $aulaCliente->getAddress();
+			echo "<li>{$i->getName()}</li>";
 		}
-	*/
+	echo "</ul>";
+echo "<li><strong>Endereço</strong></li>";
+	echo "<ul>";
+		echo "<li>Bloco: {$order1->getAddress()->getBlock()}</li>";
+		echo "<li>Andar: {$order1->getAddress()->getRoomFloor()}</li>";
+		echo "<li>Número da sala: {$order1->getAddress()->getRoomNumber()}</li>";
+	echo "</ul>";
+echo "</ul>";
 
 ?>

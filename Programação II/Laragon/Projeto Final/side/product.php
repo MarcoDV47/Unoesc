@@ -40,9 +40,9 @@ class Product
 	{
 		$this->name = $name;
 	}
-	public function setPrice(float $newPrice) : void
+	public function setPrice(float $price) : void
 	{
-		$this->price = $newPrice;
+		$this->price = $price;
 	}
 	public function setDescription(string $description) : void
 	{

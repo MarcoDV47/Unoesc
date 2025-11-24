@@ -22,13 +22,9 @@ class Store
 		$this->name = $name;
 	}
 
-	public function showMenu() : void
+	public function getMenu() : array
 	{
-		for($i = 0; $i < count($this->menu); $i++)
-		{
-			echo $this->menu[$i]->getName();
-			echo "</br>";
-		}
+		return $this->menu;
 	}	
 
 	public function addMenuItems($product)
