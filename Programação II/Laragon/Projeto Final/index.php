@@ -1,6 +1,7 @@
 <?php
 
 require_once "./side/product.php";
+require_once "./side/item.php";
 require_once "./side/address.php";
 require_once "./side/student.php";
 require_once "./side/store.php";
@@ -161,12 +162,15 @@ $store1->addMenuItems($product5);
 
 // PEDIDOS
 
-$order1 = new Order($student1, $address1);
-$order1->addMultipleItems($product1, 2);
-$order1->addItem($product2);
-$order1->addItem([$product2, $product4, $product3]);
-
-// ZONA DE TESTES
+$order1 = new Order($store1, $student1, $address1);
+$order1->addItem($product1);
+$order1->addItem($product1, 5);
+$order1->addItems([$product1, $product5], [2, 1]);
+$order1->addItems([$product2, $product4, $product3],[1, 2, 1]);
+$order2 = new Order($store1, $student2, $address2);
+$order2->addItems([$product5, $product3], [2, 4]);
+$order3 = new Order($store1, $student3, $address2);
+$order3->addItems([$product3, $product4, $product2], [9, 2, 1]);
 
 echo "<h2>Estudante</h2>";
 echo "<h3>Informações estudante 1</h3>";
@@ -251,11 +255,12 @@ echo "<ul>";
 echo "<li>Nome do estudante: {$order1->getStudent()->getName()}</li>";
 echo "<li>Total do pedido: {$order1->getTotal()}</li>";
 echo "<li>Foi entregue: " . (($order1->getIsDelivered()) ? ("true") : ("false")) .  "</li>";
+echo "<li>Data de compra: {$order1->getDate()}</li>";
 echo "<li><strong>Produtos no carrinho:</strong></li>"; 
 	echo "<ul>";
-		foreach ($order1->getShoppingCart() as $i) 
+		foreach ($order1->getItems() as $i) 
 		{
-			echo "<li>{$i->getName()}</li>";
+			echo "<li>{$i->getQuantity()} {$i->getProduct()->getName()}</li>";
 		}
 	echo "</ul>";
 echo "<li><strong>Endereço</strong></li>";
@@ -263,6 +268,33 @@ echo "<li><strong>Endereço</strong></li>";
 		echo "<li>Bloco: {$order1->getAddress()->getBlock()}</li>";
 		echo "<li>Andar: {$order1->getAddress()->getRoomFloor()}</li>";
 		echo "<li>Número da sala: {$order1->getAddress()->getRoomNumber()}</li>";
+	echo "</ul>";
+echo "</ul>";
+
+echo "<h2>Loja</h2>";
+echo "<h3>Informações Loja 1</h3>";
+echo "<ul>";
+echo "<li><strong>Produtos no carrinho:</strong></li>"; 
+	echo "<ul>";
+		$contagem = 0;
+		foreach ($store1->getOrders() as $order) 
+		{
+			$contagem++;
+			echo "<li>Pedido {$contagem}</li>";
+			echo "<ul>";
+			echo "<li><strong>Cliente:</strong> {$order->getStudent()->getName()}</li>";
+			foreach($order->getItems() as $item)
+			{
+				echo "<li>{$item->getQuantity()} {$item->getProduct()->getName()}</li>";
+			}
+			echo "<li><strong>Endereço</strong></li>";
+				echo "<ul>";
+					echo "<li>Bloco: {$order->getAddress()->getBlock()}</li>";
+					echo "<li>Andar: {$order->getAddress()->getRoomFloor()}</li>";
+					echo "<li>Número da sala: {$order->getAddress()->getRoomNumber()}</li>";
+				echo "</ul>";
+			echo "</ul>";
+		}
 	echo "</ul>";
 echo "</ul>";
 

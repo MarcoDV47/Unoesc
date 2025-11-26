@@ -2,30 +2,40 @@
 
 class Order
 {
-	private array $shopCart = [];
+	private array $items = [];
 	private float $total = 0;
 	private string $answer = "yes";
 	private Student $student;
 	private Address $address;
+	private string $date;
 	private bool $isDelivered = false;
 
-	function __construct(Student $student, Address $address)
+	function __construct(Store $store, Student $student, Address $address, array $products = [], array $quantities = [])
 	{
 		$this->setStudent($student);
+		$today = date('d/m/Y');
+		$this->setDate($today);
+
 		if (!isset($address)) {
 			$this->setAddress(getDefaultAddress());
 		}
 		else $this->setAddress($address);
+		$store->addOrder($this);
 	}
 
 	//Getters
 	public function getTotal(): float
 	{
-		foreach($this->shopCart as $product)
+		$this->total = 0;
+
+		foreach($this->items as $item)
 		{
-			$this->total += $product->getPrice();
+			$product = $item->getProduct();
+			$quantity = $item->getQuantity();
+
+			$this->total += ($product->getPrice() * $quantity);
 		}
-		return $this->total;
+		return $this->total;	
 	}
 
 	public function getStudent(): Student
@@ -43,9 +53,19 @@ class Order
 		return $this->address;
 	}
 
+	public function getDate(): string
+	{
+		return $this->date;
+	}
+
 	public function getIsDelivered() : bool
 	{
 		return $this->isDelivered;
+	}
+
+	public function getItems() : array
+	{
+		return $this->items;
 	}
 
 	public function getDefaultAddress() : Address
@@ -69,6 +89,11 @@ class Order
 		$this->address = $address;
 	}
 
+	public function setDate(string $date): void
+	{
+		$this->date = $date;
+	}
+
 	public function setIsDelivered(bool $isDelivered): void
 	{
 		$this->isDelivered = $isDelivered;
@@ -76,29 +101,43 @@ class Order
 
 	//Funcoes Proprias
 
-	public function addItem($product) : void
-	{
-		if(is_array($product))
-		{
-			for($i = 0; $i < count($product); $i++)
-			{
-				$this->addItem($product[$i]);	
-			}
-		}
-		else $this->shopCart[] = $product;
+	//Add Individual
+	public function addItem(Product $newProduct, int $quantity = 1): void {
+
+    foreach($this->items as $item) {
+        if ($item->getProduct() === $newProduct) {
+            
+            $currentQuantity = $item->getQuantity();
+            $item->setQuantity($currentQuantity + $quantity);
+            return;
+        }
+    }
+		$newItem = new Item($newProduct, $quantity);
+		$this->items[] = $newItem;
 	}
 
-	public function getShoppingCart() : array
-	{
-		return $this->shopCart;
-	}
+	//Add Array
+	public function addItems(array $products = [], array $quantities = []): void { 
 
-	public function addMultipleItems($product, $quantity) : void
-	{
-		for ($i = 0; $i < $quantity; $i++)
-		{
-			$this->addItem($product);
-		}
+    	if(count($products) === count($quantities)) {
+
+        	for($i = 0; $i < count($products); $i++) {
+            	$product = $products[$i];
+            	$quantity = $quantities[$i];
+
+           		if ($product instanceof Product && $quantity > 0) { 
+                
+                	$this->addItem($product, $quantity); 
+
+            	} else {
+                	error_log("Produto ou Quantidade inválida detectada.");
+            	}
+        	}
+
+    	} else {
+
+        error_log("O número de produtos informados não confere com o número de quantidades informadas.");
+    	}
 	}
 }
 

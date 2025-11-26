@@ -4,6 +4,7 @@ class Store
 {
 	private string $name;
 	public array $menu = [];
+	private array $orders = [];
 
 	function __construct($name)
 	{
@@ -27,6 +28,11 @@ class Store
 		return $this->menu;
 	}	
 
+	public function getOrders() : array
+	{
+		return $this->orders;
+	}	
+
 	public function addMenuItems($product)
 	{
 		if(is_array($product))
@@ -44,6 +50,26 @@ class Store
 			if (!in_array($product, $this->menu)) 
 			{
 				$this->menu[] = $product;
+			}
+		}
+	}
+
+	public function addOrder(Order $order)
+	{
+		if(is_array($order))
+		{
+			foreach($order as $o)
+			{
+				if (!in_array($o, $this->orders)) 
+				{
+					$this->orders[] = $o;
+				} 
+			}
+		} else 
+		{
+			if (!in_array($order, $this->orders)) 
+			{
+				$this->orders[] = $order;
 			}
 		}
 	}
@@ -70,6 +96,29 @@ class Store
 			}
 		}
 		$this->menu = array_values($this->menu);
+	}
+
+	public function removeOrder($order)
+	{
+		if(is_array($order))
+		{
+			foreach($order as $o)
+			{
+				if (in_array($o, $this->orders)) 
+				{
+					$indexNumber = array_search($o, $this->orders);
+					unset($this->orders[$indexNumber]);
+				} 
+			}
+		} else 
+		{
+			if (in_array($order, $this->orders)) 
+			{
+				$indexNumber = array_search($order, $this->orders);
+				unset($this->orders[$indexNumber]);
+			}
+		}
+		$this->orders = array_values($this->orders);
 	}
 }
 
