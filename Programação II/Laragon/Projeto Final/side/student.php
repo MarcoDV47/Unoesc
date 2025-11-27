@@ -1,5 +1,7 @@
 <?php
 
+include("database.php");
+
 class Student
 {
 	private string $enrollment;
@@ -37,6 +39,14 @@ class Student
 	public function getSemester(): int
 	{
 		return $this->semester;
+	}
+
+	public function fetchStudent($conn)
+	{
+		$sql = "SELECT * FROM students";
+		$result = mysqli_query($conn, $sql);
+		$row = mysqli_fetch_assoc($result);
+		return $row;
 	}
 
 	//Setters

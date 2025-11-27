@@ -4,7 +4,6 @@ class Order
 {
 	private array $items = [];
 	private float $total = 0;
-	private string $answer = "yes";
 	private Student $student;
 	private Address $address;
 	private string $date;
